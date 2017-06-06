@@ -1,9 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+<baseControls:BasePage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:RepairShop"
-             x:Class="RepairShop.MainPage"
+             x:Class="RepairShop.Views.MainPage"
 			 x:Name="MainPage"
+		  xmlns:baseControls="clr-namespace:RepairShop.UI;assembly=RepairShop.Core"
 			 xmlns:b="clr-namespace:Xamarin.Behaviors;assembly=Xamarin.Behaviors">
 
 	<Grid>
@@ -19,4 +20,4 @@
 
 	<ContentView Content="{Binding Content,Source={b:RelativeContext MainPage}}"/>
 
-</ContentPage>
+</baseControls:BasePage>

@@ -38,8 +38,14 @@
     <Compile Include="BasePage.cs" />
     <Compile Include="Commanding\RelayCommand.cs" />
     <Compile Include="ControllerBase.cs" />
+    <Compile Include="EventNotifier.cs" />
+    <Compile Include="Host.cs" />
     <Compile Include="IContainer.cs" />
     <Compile Include="IController.cs" />
+    <Compile Include="IHost.cs" />
+    <Compile Include="IListener.cs" />
+    <Compile Include="IMessage.cs" />
+    <Compile Include="INotifier.cs" />
     <Compile Include="IocContainer.cs" />
     <Compile Include="IResourceDictionary.cs" />
     <Compile Include="IUIController.cs" />
